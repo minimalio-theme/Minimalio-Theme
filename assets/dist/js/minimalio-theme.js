@@ -545,6 +545,16 @@ function getURLParameter(name) {
 }
 
 function hoverVideoInit() {
+  // Skip on devices without hover capability (touch devices)
+  // This prevents the video from intercepting clicks on mobile
+  if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    // Remove video elements on touch devices to prevent click interception
+    document.querySelectorAll('.portfolio-hover-video').forEach(video => {
+      video.remove();
+    });
+    return;
+  }
+
   let postcards = document.querySelectorAll(".post-card");
   let postCardsArray = [...postcards];
 
@@ -802,17 +812,27 @@ jQuery(document).ready(function($){
 
 
     function hoverVideoInit() {
+      // Skip on devices without hover capability (touch devices)
+      // This prevents the video from intercepting clicks on mobile
+      if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+        // Remove video elements on touch devices to prevent click interception
+        document.querySelectorAll('.portfolio-hover-video').forEach(video => {
+          video.remove();
+        });
+        return;
+      }
+
       let postcards = document.querySelectorAll(".post-card");
       let postCardsArray = [...postcards];
-    
+
       postCardsArray.forEach((postcard) => {
         let video = postcard.getElementsByClassName("portfolio-hover-video");
-    
+
         if (video[0] != undefined) {
           postcard.addEventListener("mouseenter", () => {
             video[0].play();
           });
-    
+
           postcard.addEventListener("mouseleave", () => {
             video[0].pause();
             video[0].currentTime = 0;
@@ -1064,6 +1084,16 @@ jQuery(document).ready(function ($) {
   var post_type = $('.my-posts').data('type');
 
   function hoverVideoInit() {
+    // Skip on devices without hover capability (touch devices)
+    // This prevents the video from intercepting clicks on mobile
+    if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+      // Remove video elements on touch devices to prevent click interception
+      document.querySelectorAll('.portfolio-hover-video').forEach(video => {
+        video.remove();
+      });
+      return;
+    }
+
     let postcards = document.querySelectorAll(".post-card");
     let postCardsArray = [...postcards];
 

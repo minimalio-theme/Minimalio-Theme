@@ -13,12 +13,14 @@ defined( 'ABSPATH' ) || exit;
  * Used when plugin is not active (WordPress.org theme requirements)
  */
 function minimalio_get_hardcoded_demos() {
+    $demos_image_path = get_template_directory_uri() . '/inc/custom/minimalio-admin/images/demos/';
+
     return array(
         'demos' => array(
             array(
                 'id' => 'john',
                 'name' => 'John',
-                'image' => 'https://minimalio.sirv.com/Images/john-minimalio.webp',
+                'image' => $demos_image_path . 'john-minimalio.webp',
                 'preview_url' => 'https://john.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -26,7 +28,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'jane',
                 'name' => 'Jane',
-                'image' => 'https://minimalio.sirv.com/Images/jane-minimalio.webp',
+                'image' => $demos_image_path . 'jane-minimalio.webp',
                 'preview_url' => 'https://jane.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -34,7 +36,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'caroline',
                 'name' => 'Caroline',
-                'image' => 'https://minimalio.sirv.com/Images/caroline-minimalio.webp',
+                'image' => $demos_image_path . 'caroline-minimalio.webp',
                 'preview_url' => 'https://caroline.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -42,7 +44,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'stefan',
                 'name' => 'Stefan',
-                'image' => 'https://minimalio.sirv.com/Images/stefan-minimalio.webp',
+                'image' => $demos_image_path . 'stefan-minimalio.webp',
                 'preview_url' => 'https://stefan.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -50,7 +52,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'alex',
                 'name' => 'Alex',
-                'image' => 'https://minimalio.sirv.com/Images/alex-minimalio.webp',
+                'image' => $demos_image_path . 'alex-minimalio.webp',
                 'preview_url' => 'https://alex.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -58,7 +60,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'george',
                 'name' => 'George',
-                'image' => 'https://minimalio.sirv.com/Images/george-minimalio.webp',
+                'image' => $demos_image_path . 'george-minimalio.webp',
                 'preview_url' => 'https://george.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -66,7 +68,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'teresa',
                 'name' => 'Teresa',
-                'image' => 'https://minimalio.sirv.com/Images/teresa-minimalio.webp',
+                'image' => $demos_image_path . 'teresa-minimalio.webp',
                 'preview_url' => 'https://teresa.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -74,7 +76,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'sofia',
                 'name' => 'Sofia',
-                'image' => 'https://minimalio.sirv.com/Images/sofia-minimalio.webp',
+                'image' => $demos_image_path . 'sofia-minimalio.webp',
                 'preview_url' => 'https://sofia.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -82,7 +84,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'samuel',
                 'name' => 'Samuel',
-                'image' => 'https://minimalio.sirv.com/Images/samuel-minimalio.webp',
+                'image' => $demos_image_path . 'samuel-minimalio.webp',
                 'preview_url' => 'https://samuel.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -90,7 +92,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'richard',
                 'name' => 'Richard',
-                'image' => 'https://minimalio.sirv.com/Images/richard-minimalio.webp',
+                'image' => $demos_image_path . 'richard-minimalio.webp',
                 'preview_url' => 'https://richard.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -98,7 +100,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'nicole',
                 'name' => 'Nicole',
-                'image' => 'https://minimalio.sirv.com/Images/nicole-minimalio.webp',
+                'image' => $demos_image_path . 'nicole-minimalio.webp',
                 'preview_url' => 'https://nicole.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -106,7 +108,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'mark',
                 'name' => 'Mark',
-                'image' => 'https://minimalio.sirv.com/Images/mark-minimalio.webp',
+                'image' => $demos_image_path . 'mark-minimalio.webp',
                 'preview_url' => 'https://mark.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -114,7 +116,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'francis',
                 'name' => 'Francis',
-                'image' => 'https://minimalio.sirv.com/Images/francis-minimalio.webp',
+                'image' => $demos_image_path . 'francis-minimalio.webp',
                 'preview_url' => 'https://francis.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -122,7 +124,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'jimmy',
                 'name' => 'Jimmy',
-                'image' => 'https://minimalio.sirv.com/Images/jimmy-minimalio.webp',
+                'image' => $demos_image_path . 'jimmy-minimalio.webp',
                 'preview_url' => 'https://jimmy.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -130,7 +132,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'lucy',
                 'name' => 'Lucy',
-                'image' => 'https://minimalio.sirv.com/Images/lucy-minimalio.webp',
+                'image' => $demos_image_path . 'lucy-minimalio.webp',
                 'preview_url' => 'https://lucy.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -138,7 +140,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'alfred',
                 'name' => 'Alfred',
-                'image' => 'https://minimalio.sirv.com/Images/alfred-minimalio.webp',
+                'image' => $demos_image_path . 'alfred-minimalio.webp',
                 'preview_url' => 'https://alfred.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -146,7 +148,7 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'tony',
                 'name' => 'Tony',
-                'image' => 'https://minimalio.sirv.com/Images/tony-minimalio.webp',
+                'image' => $demos_image_path . 'tony-minimalio.webp',
                 'preview_url' => 'https://tony.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
@@ -154,16 +156,24 @@ function minimalio_get_hardcoded_demos() {
             array(
                 'id' => 'eadweard',
                 'name' => 'Eadweard',
-                'image' => 'https://minimalio.sirv.com/Images/eadweard-minimalio.webp',
+                'image' => $demos_image_path . 'eadweard-minimalio.webp',
                 'preview_url' => 'https://eadweard.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
             ),
-            array(
+              array(
                 'id' => 'charles',
                 'name' => 'Charles',
-                'image' => 'https://minimalio.sirv.com/Images/charles.webp',
+                'image' => $demos_image_path . 'charles-minimalio.webp',
                 'preview_url' => 'https://charles.minimalio.org',
+                'content_url' => '',
+                'settings_url' => ''
+            ),
+            array(
+                'id' => 'hal',
+                'name' => 'Hal',
+                'image' => $demos_image_path . 'hal-minimalio.webp',
+                'preview_url' => 'https://hal.minimalio.org',
                 'content_url' => '',
                 'settings_url' => ''
             ),

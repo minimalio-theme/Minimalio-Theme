@@ -1,4 +1,4 @@
-# Copyright (C) 2025 minimalio
+# Copyright (C) 2026 minimalio
 # This file is distributed under the same license as the minimalio package.
 msgid ""
 msgstr ""
@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-12-08 10:14+0000\n"
+"POT-Creation-Date: 2026-01-14 14:14+0000\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -1039,11 +1039,11 @@ msgstr ""
 msgid "Minimalio"
 msgstr ""
 
-#: inc/custom/minimalio-admin-pages.php:54, inc/custom/minimalio-admin-pages.php:55, inc/custom/minimalio-admin-pages.php:120, inc/custom/minimalio-admin/import-demos.php:216
+#: inc/custom/minimalio-admin-pages.php:54, inc/custom/minimalio-admin-pages.php:55, inc/custom/minimalio-admin-pages.php:120, inc/custom/minimalio-admin/import-demos.php:226
 msgid "Demos"
 msgstr ""
 
-#: inc/custom/minimalio-admin-pages.php:64, inc/custom/minimalio-admin-pages.php:65, inc/custom/minimalio-admin-pages.php:123, inc/custom/minimalio-admin-pages.php:172, inc/custom/minimalio-admin/tutorials.php:263
+#: inc/custom/minimalio-admin-pages.php:64, inc/custom/minimalio-admin-pages.php:65, inc/custom/minimalio-admin-pages.php:123, inc/custom/minimalio-admin-pages.php:172, inc/custom/minimalio-admin/tutorials.php:265
 msgid "Tutorials"
 msgstr ""
 
@@ -1143,11 +1143,11 @@ msgstr ""
 msgid "No subscriptions, just pay once and enjoy forever."
 msgstr ""
 
-#: inc/custom/minimalio-admin-pages.php:152, inc/custom/minimalio-admin/import-demos.php:223
+#: inc/custom/minimalio-admin-pages.php:152, inc/custom/minimalio-admin/import-demos.php:233
 msgid "Purchase Premium Plugin ($49)"
 msgstr ""
 
-#: inc/custom/minimalio-admin-pages.php:156, inc/custom/minimalio-admin/import-demos.php:226
+#: inc/custom/minimalio-admin-pages.php:156, inc/custom/minimalio-admin/import-demos.php:236
 msgid "How to Install Tutorial"
 msgstr ""
 
@@ -1263,99 +1263,99 @@ msgstr ""
 msgid "Right Sidebar"
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:220
+#: inc/custom/minimalio-admin/import-demos.php:230
 msgid "Import Available Only with the Premium Plugin"
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:221
+#: inc/custom/minimalio-admin/import-demos.php:231
 msgid "You can preview the demos, but importing them is only available with the Premium Plugin."
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:232
+#: inc/custom/minimalio-admin/import-demos.php:242
 msgid "How to Import? Content First, Then Settings."
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:233
+#: inc/custom/minimalio-admin/import-demos.php:243
 msgid "Importing demos couldn't be easier. But please, check out the Import Demo Tutorial, to find out how it works, what it imports and how to use the demo content."
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:236
+#: inc/custom/minimalio-admin/import-demos.php:246
 msgid "Import Demo Tutorial"
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:239
+#: inc/custom/minimalio-admin/import-demos.php:249
 msgid "View Demos on Minimalio Website"
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:257
+#: inc/custom/minimalio-admin/import-demos.php:267
 msgid "Unknown Demo"
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:285, inc/custom/minimalio-admin/import-demos.php:288
+#: inc/custom/minimalio-admin/import-demos.php:295, inc/custom/minimalio-admin/import-demos.php:298
 msgid "Requires Minimalio Portfolio Plugin"
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:286, inc/custom/minimalio-admin/import-demos.php:274
+#: inc/custom/minimalio-admin/import-demos.php:296, inc/custom/minimalio-admin/import-demos.php:284
 msgid "Import Content"
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:289, inc/custom/minimalio-admin/import-demos.php:281
+#: inc/custom/minimalio-admin/import-demos.php:299, inc/custom/minimalio-admin/import-demos.php:291
 msgid "Import Settings"
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:294
+#: inc/custom/minimalio-admin/import-demos.php:304
 msgid "Preview"
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:249
+#: inc/custom/minimalio-admin/import-demos.php:259
 msgid "Sorry, Minimalio is having trouble finding the demos, make sure you are connected to the internet or you can try to refresh demos at the bottom of this page. If the problem persists, please contact the support. Thank you."
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:306
+#: inc/custom/minimalio-admin/import-demos.php:316
 msgid "View all demos at Minimalio website"
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:307
+#: inc/custom/minimalio-admin/import-demos.php:317
 msgid "There might be some new ones..."
 msgstr ""
 
-#: inc/custom/minimalio-admin/import-demos.php:309
+#: inc/custom/minimalio-admin/import-demos.php:319
 msgid "All Demos"
 msgstr ""
 
-#: inc/custom/minimalio-admin/tutorials.php:242
+#: inc/custom/minimalio-admin/tutorials.php:244
 msgid "Beginner Tutorials"
 msgstr ""
 
-#: inc/custom/minimalio-admin/tutorials.php:243
+#: inc/custom/minimalio-admin/tutorials.php:245
 msgid "Content Management"
 msgstr ""
 
-#: inc/custom/minimalio-admin/tutorials.php:244
+#: inc/custom/minimalio-admin/tutorials.php:246
 msgid "Demos and Child Themes"
 msgstr ""
 
-#: inc/custom/minimalio-admin/tutorials.php:245
+#: inc/custom/minimalio-admin/tutorials.php:247
 msgid "Theme Options"
 msgstr ""
 
-#: inc/custom/minimalio-admin/tutorials.php:281
+#: inc/custom/minimalio-admin/tutorials.php:283
 msgid "Unknown Tutorial"
 msgstr ""
 
-#: inc/custom/minimalio-admin/tutorials.php:295
+#: inc/custom/minimalio-admin/tutorials.php:297
 msgid "View Tutorial"
 msgstr ""
 
-#: inc/custom/minimalio-admin/tutorials.php:267
+#: inc/custom/minimalio-admin/tutorials.php:269
 msgid "Sorry, Minimalio is having trouble finding the tutorials, make sure you are connected to the internet and if the problem persists, please contact the support. Thank you."
 msgstr ""
 
-#: inc/custom/minimalio-admin/tutorials.php:317
+#: inc/custom/minimalio-admin/tutorials.php:319
 msgid "Need More Help?"
 msgstr ""
 
-#: inc/custom/minimalio-admin/tutorials.php:318
+#: inc/custom/minimalio-admin/tutorials.php:320
 msgid "If you have purchased the Premium Plugin, you should have received the support email address. Please contact the support there. Thank you."
 msgstr ""
 

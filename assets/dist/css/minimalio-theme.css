@@ -882,10 +882,6 @@ video {
   overflow-y: scroll;
 }
 
-.whitespace-nowrap {
-  white-space: nowrap;
-}
-
 .break-words {
   overflow-wrap: break-word;
 }
@@ -2092,6 +2088,11 @@ HEADER
     font-size: 1.776889rem;
   }
 }
+@media screen and (max-width: 768px) {
+  .header__brand {
+    padding-right: 3rem;
+  }
+}
 
 .site .custom-logo-link .img-fluid {
   width: 180px;
@@ -3037,37 +3038,53 @@ PORTFOLIO POST CARDS
 }
 
 .hover-video .post-card__image .portfolio-hover-video {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 100%;
-  width: 100%;
+  display: none;
 }
-.hover-video:hover .post-card__image .portfolio-hover-video {
-  opacity: 1;
-  transition: opacity 0.3s;
+@media (hover: hover) and (pointer: fine) {
+  .hover-video .post-card__image .portfolio-hover-video {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  .hover-video:hover .post-card__image .portfolio-hover-video {
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
 }
 .hover-video .post-card__overlay {
   display: none;
 }
 
 .masonry .hover-video .post-card__image .portfolio-hover-video {
-  height: 0;
-  opacity: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 100%;
-  width: 100%;
+  display: none;
 }
-.masonry .hover-video:hover .post-card__image .portfolio-hover-video {
-  opacity: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  transition: opacity 0.3s;
+@media (hover: hover) and (pointer: fine) {
+  .masonry .hover-video .post-card__image .portfolio-hover-video {
+    display: block;
+    height: 0;
+    opacity: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  .masonry .hover-video:hover .post-card__image .portfolio-hover-video {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: opacity 0.3s;
+  }
 }
 .masonry .hover-video .post-card__overlay {
   display: none;
